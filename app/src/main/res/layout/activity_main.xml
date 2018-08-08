@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.hudson.rulerproject.RulerView
+        android:id="@+id/ruler_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:lineMaxHeight="40dp"
+        app:lineMidHeight="30dp"
+        app:lineMinHeight="20dp"
+        app:maxValue="500"
+        app:minValue="0"
+        app:selectorValue="200" />
+
+    <TextView
+        android:id="@+id/tv_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:textColor="#EA0000"
+        android:textSize="18sp" />
+
+</FrameLayout>
